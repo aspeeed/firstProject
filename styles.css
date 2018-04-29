@@ -2,27 +2,3 @@
     display: flex;
     flex-direction: row;
 }
-.dateIterview{
-	display: flex;
-	flex-direction: row;
-}
-.engLvl{
-	display: flex;
-	flex-direction: column;
-}
-.groupRadio{
-	display: flex;
-	flex-direction: row;
-}
-.addAbility{
-	display: flex;
-	flex-direction: row;
-}
-.choiceCommynicability{
-	display: flex;
-	flex-direction: row;
-}
-.moneyDesire{
-	display: flex;
-	flex-direction: row;
-}

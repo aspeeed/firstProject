@@ -12,22 +12,22 @@
 			</div>
 			<div class='info'>
 				<p>Имя: Кырова Дарья</p>
-				<a href = "https://github.com/aspeeed">Github</a>
+				<a href = "https://github.com/aspeeed" target ="_blank">Github</a>
 				<p>Опыт работы: нет</p>
 			</div>
 		</div>
 		<div class="inputArea">
 				<div class="dateIterview">
-					<p>Дата собеседования</p>
+					<span>Дата собеседования</span>
 					<input type="date"></input>
 				</div>
 				<div class="engLvl">
 					<p>Уровень английского:</p>
 					<div class="groupRadio">
-						<input type="radio" name="lvlEn">Плохо</input>
-						<input type="radio" name="lvlEn" checked>Средне</input>
-						<input type="radio" name="lvlEn">Хорошо</input>
-						<input type="radio" name="lvlEn">Превосходно</input>
+						<input type="radio" name="lvlEn" id="1"></input><label for="1"> Плохо</label>
+						<input type="radio" name="lvlEn" id="2" checked></input><label for="2">Средне</label>
+						<input type="radio" name="lvlEn" id="3"></input><label for="3">Хорошо</label>
+						<input type="radio" name="lvlEn" id="4"></input><label for="4">Превосходно</label>
 					</div>
 				</div>
 				<div class="keyAbilites">
@@ -46,7 +46,7 @@
 					<button>Добавить в список</button>
 				</div>
 				<div class="choiceCommynicability">
-					<p>Коммуникабельность:</p>
+					<span>Коммуникабельность:</span>
 					<select>
 						<option selected>Выберите значение</option>
 						<option>Одинокий волк</option>
@@ -56,15 +56,15 @@
 					</select>
 				</div>
 				<div class="moneyDesire">
-					<p>Желаемая з/п:</p>
-					<input type="text" placeholder="введите значение..."></input>
+					<span>Желаемая з/п:</span>
+					<input type="number" placeholder="введите значение..."></input>
 				</div>
 				<div class="fitCriteria">
 					<p>Подходит по критериям:</p>
-						<input type="checkbox">Знание английского</input>
-						<input type="checkbox">Оклад</input>
-						<input type="checkbox">Навыки</input>
-						<input type="checkbox">Сразу видно, что свой человек</input>
+						<input type="checkbox" id="check1"></input><label for="check1">Знание английского</label>
+						<input type="checkbox" id="check2"></input><label for="check2">Оклад</label>
+						<input type="checkbox" id="check3"></input><label for="check3">Навыки</label>
+						<input type="checkbox" id="check4"></input><label for="check4">Сразу видно, что свой человек</label>
 				</div>
 				<div class="tableEducation">
 					<table>
